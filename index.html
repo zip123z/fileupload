@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>附檔上傳</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>附檔上傳</h1>
+    
+    <div class="upload-section">
+      <input type="file" id="fileInput" multiple>
+      <button id="uploadBtn">選擇檔案</button>
+      <div class="file-info-container" style="display: none;">
+        <h3>選擇的檔案</h3>
+        <ul id="selectedFileList"></ul>
+      </div>
+      <button id="confirmBtn" style="display: none;">確認上傳</button>
+      <div class="progress-container">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+
+    <div class="file-list">
+      <h2>已上傳檔案</h2>
+      <ul id="fileList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
