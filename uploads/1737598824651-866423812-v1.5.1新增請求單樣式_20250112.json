@@ -1,0 +1,505 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "align": "start",
+            "gravity": "center",
+            "text": "新增服務請求",
+            "size": "xxl",
+            "weight": "bold"
+          }
+        ],
+        "paddingTop": "19px",
+        "paddingAll": "12px",
+        "paddingBottom": "16px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "服務目錄",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "施工申請單(A段)",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "主旨*",
+            "weight": "bold"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "點選填寫",
+              "data": "主旨",
+              "displayText": "請輸入主旨"
+            },
+            "color": "#ff0000"
+          },
+          {
+            "type": "text",
+            "text": "說明",
+            "weight": "bold"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "點選填寫",
+              "data": "主旨",
+              "displayText": "請輸入主旨"
+            }
+          },
+          {
+            "type": "text",
+            "text": "關鍵字",
+            "weight": "bold"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "點選填寫",
+              "data": "主旨",
+              "displayText": "請輸入主旨"
+            }
+          },
+          {
+            "type": "text",
+            "text": "優先等級",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "緊急",
+                  "data": "優先等級：緊急",
+                  "displayText": "優先等級：緊急"
+                },
+                "height": "sm",
+                "style": "primary"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "高",
+                  "data": "優先等級：高",
+                  "displayText": "優先等級：高"
+                },
+                "height": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "中",
+                  "data": "優先等級：中",
+                  "displayText": "優先等級：中"
+                },
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "低",
+                  "data": "優先等級：低",
+                  "displayText": "優先等級：低"
+                },
+                "height": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "影響範圍",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "單點",
+                  "data": "主旨",
+                  "displayText": "影響範圍：單點"
+                },
+                "height": "sm",
+                "style": "primary"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "部分",
+                  "data": "主旨",
+                  "displayText": "請輸入範圍：部分區域"
+                },
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "全區",
+                  "data": "主旨",
+                  "displayText": "影響範圍：全區"
+                },
+                "height": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "附檔",
+                  "data": "hello"
+                },
+                "style": "secondary",
+                "height": "sm",
+                "margin": "none"
+              }
+            ],
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "離開回主選單",
+                  "data": "離開回主選單"
+                },
+                "height": "sm",
+                "margin": "md",
+                "color": "#C44048"
+              }
+            ],
+            "margin": "sm"
+          }
+        ]
+      },
+      "styles": {
+        "footer": {
+          "separator": false
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "align": "start",
+            "gravity": "center",
+            "text": "請點選輸入欄位內容值",
+            "weight": "bold",
+            "size": "lg"
+          },
+          {
+            "type": "text",
+            "align": "start",
+            "size": "md",
+            "gravity": "center",
+            "text": "(*表必填)"
+          },
+          {
+            "type": "separator"
+          }
+        ],
+        "paddingTop": "19px",
+        "paddingAll": "12px",
+        "paddingBottom": "16px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "欄位A*",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start",
+            "size": "lg"
+          },
+          {
+            "type": "text",
+            "text": "欄位B",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start",
+            "color": "#D888F6"
+          },
+          {
+            "type": "text",
+            "text": "欄位C",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start",
+            "color": "#D888F6"
+          }
+        ]
+      },
+      "styles": {
+        "footer": {
+          "separator": false
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "align": "start",
+            "size": "xl",
+            "gravity": "center",
+            "text": "欄位A",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "align": "start",
+            "size": "md",
+            "gravity": "center",
+            "text": "欄位選項如下"
+          },
+          {
+            "type": "separator"
+          }
+        ],
+        "paddingTop": "19px",
+        "paddingAll": "12px",
+        "paddingBottom": "16px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "選項A",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start",
+            "color": "#D888F6"
+          },
+          {
+            "type": "text",
+            "text": "選項B",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start",
+            "color": "#D888F6"
+          },
+          {
+            "type": "text",
+            "text": "選項C",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start",
+            "color": "#D888F6"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "color": "#000000"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "清除",
+              "data": "清除"
+            },
+            "height": "sm",
+            "margin": "md"
+          }
+        ]
+      },
+      "styles": {
+        "footer": {
+          "separator": false
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "align": "start",
+            "size": "lg",
+            "gravity": "center",
+            "text": "表單欄位內容如下",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "align": "start",
+            "size": "md",
+            "gravity": "center",
+            "text": " ",
+            "color": "#ffffff"
+          },
+          {
+            "type": "separator"
+          }
+        ],
+        "paddingTop": "19px",
+        "paddingAll": "12px",
+        "paddingBottom": "16px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "1. ",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "2. ",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "3. ",
+            "action": {
+              "type": "postback",
+              "label": "欄位A",
+              "data": "欄位A",
+              "displayText": "欄位A"
+            },
+            "align": "start"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "color": "#000000"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "data": "欄位輸入完成",
+              "label": "欄位輸入完成"
+            },
+            "style": "primary",
+            "height": "sm",
+            "margin": "md"
+          }
+        ]
+      },
+      "styles": {
+        "footer": {
+          "separator": false
+        }
+      }
+    }
+  ]
+}
